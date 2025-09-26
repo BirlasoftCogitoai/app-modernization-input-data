@@ -1,0 +1,25 @@
+{
+  "description": "Sample service management notes",
+  "data": [
+    {
+      "value": "Customer Profile & Case Search are top journeys",
+      "label": "Primary User Journeys",
+      "description": "Most critical user workflows"
+    },
+    {
+      "value": "Performance issues in case creation flow",
+      "label": "Performance Concerns",
+      "description": "Known bottlenecks"
+    },
+    {
+      "value": "Legacy authentication needs modernization",
+      "label": "Security Requirements",
+      "description": "Authentication modernization"
+    },
+    {
+      "value": "Integration with external systems is complex",
+      "label": "Integration Complexity",
+      "description": "External system dependencies"
+    }
+  ]
+}
