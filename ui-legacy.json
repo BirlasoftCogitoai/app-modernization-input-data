@@ -1,0 +1,38 @@
+{
+  "description": "Sample legacy UI components",
+  "data": [
+    {
+      "value": [
+        "profile.jsp",
+        "cases.jsp",
+        "caseDetails.jsp",
+        "login.jsp"
+      ],
+      "label": "Core Pages",
+      "description": "Primary user interfaces"
+    },
+    {
+      "value": [
+        "profile.jsp",
+        "cases.jsp",
+        "caseDetails.jsp",
+        "login.jsp",
+        "dashboard.jsp",
+        "reports.jsp"
+      ],
+      "label": "Full UI Set",
+      "description": "Complete page inventory"
+    },
+    {
+      "value": [
+        "profile.jsp",
+        "cases.jsp",
+        "caseDetails.jsp",
+        "login.jsp",
+        "admin.jsp"
+      ],
+      "label": "With Admin",
+      "description": "Includes admin interface"
+    }
+  ]
+}
