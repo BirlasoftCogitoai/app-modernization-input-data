@@ -1,0 +1,20 @@
+{
+  "description": "Sample access log patterns",
+  "data": [
+    {
+      "value": "GET /egp/profile 200 145ms\nGET /egp/cases 200 420ms\nPOST /egp/case 500 980ms",
+      "label": "Standard Traffic Pattern",
+      "description": "Typical user interactions"
+    },
+    {
+      "value": "GET /egp/login 200 89ms\nGET /egp/dashboard 200 234ms\nGET /egp/profile 200 156ms",
+      "label": "Login Flow",
+      "description": "User authentication sequence"
+    },
+    {
+      "value": "POST /egp/case 500 1200ms\nGET /egp/error 500 45ms\nPOST /egp/retry 200 890ms",
+      "label": "Error Scenarios",
+      "description": "Failure and recovery patterns"
+    }
+  ]
+}
