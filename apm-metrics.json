@@ -1,0 +1,20 @@
+{
+  "description": "Sample APM metrics data",
+  "data": [
+    {
+      "value": "p95: profile=240ms, cases=520ms; error rate: createCase=2.1%",
+      "label": "Current Performance",
+      "description": "Baseline performance metrics"
+    },
+    {
+      "value": "p95: profile=180ms, cases=380ms; error rate: createCase=0.8%",
+      "label": "Target Performance",
+      "description": "Desired performance targets"
+    },
+    {
+      "value": "p95: profile=320ms, cases=680ms; error rate: createCase=3.2%",
+      "label": "Peak Load",
+      "description": "High traffic performance"
+    }
+  ]
+}
