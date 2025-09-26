@@ -1,0 +1,35 @@
+{
+  "description": "Sample EJB class listings",
+  "data": [
+    {
+      "value": [
+        "CustomerBean",
+        "CaseBean",
+        "AuditMDB"
+      ],
+      "label": "Core EJBs",
+      "description": "Primary business logic"
+    },
+    {
+      "value": [
+        "CustomerBean",
+        "CaseBean",
+        "AuditMDB",
+        "ReportBean",
+        "NotificationBean"
+      ],
+      "label": "Extended EJBs",
+      "description": "Full EJB inventory"
+    },
+    {
+      "value": [
+        "CustomerBean",
+        "CaseBean",
+        "AuditMDB",
+        "IntegrationBean"
+      ],
+      "label": "With Integration",
+      "description": "Includes integration layer"
+    }
+  ]
+}
