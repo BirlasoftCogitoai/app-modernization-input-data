@@ -1,0 +1,25 @@
+{
+  "description": "Sample server configurations",
+  "data": [
+    {
+      "value": "WebLogic 12c",
+      "label": "Oracle WebLogic 12c",
+      "description": "Application server"
+    },
+    {
+      "value": "Oracle 12c",
+      "label": "Oracle Database 12c",
+      "description": "Primary database"
+    },
+    {
+      "value": "WebLogic 11g",
+      "label": "Oracle WebLogic 11g",
+      "description": "Legacy application server"
+    },
+    {
+      "value": "Tomcat 8.5",
+      "label": "Apache Tomcat 8.5",
+      "description": "Web container"
+    }
+  ]
+}
