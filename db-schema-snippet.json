@@ -1,0 +1,20 @@
+{
+  "description": "Sample database schema snippets",
+  "data": [
+    {
+      "value": "TABLE CUSTOMER(id PK, name, email, updated_at)\nTABLE CASES(id PK, customer_id FK, status, priority)",
+      "label": "Core Tables",
+      "description": "Primary business entities"
+    },
+    {
+      "value": "TABLE CUSTOMER(id PK, name, email, phone, address, updated_at)\nTABLE CASES(id PK, customer_id FK, status, priority, created_at, assigned_to)",
+      "label": "Extended Schema",
+      "description": "Full table definitions"
+    },
+    {
+      "value": "TABLE CUSTOMER(id PK, name, email, updated_at)\nTABLE CASES(id PK, customer_id FK, status, priority)\nTABLE AUDIT_LOG(id PK, entity_type, entity_id, action, timestamp)",
+      "label": "With Audit",
+      "description": "Includes audit trail"
+    }
+  ]
+}
